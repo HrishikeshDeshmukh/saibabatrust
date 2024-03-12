@@ -1,23 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import './responsive.css'
+import Carousel from './components/Carousel';
+import AboutSection from './components/AboutSection';
+import Services from './components/Services';
+import SocialPage from './components/SocialPage';
+import Navbar from './components/Navbar';
+import LatestNews from './components/LatestNews';
+import GalleryComponent from './components/GalleryComponent';
+import Temples from './components/Temples';
+import NearbyPlaces from './components/NearbyPlaces';
+import Preloader from './components/Preloader';
+import Footer from './components/Footer';
+import { useState, useEffect } from 'react';
 
 function App() {
+   
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000); // Adjust the time as needed
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {loading ? <Preloader /> : 
+      
+      
+
+    <><Navbar />
+      <SocialPage />
+      <Carousel />
+      <AboutSection />
+       <Services /> 
+       <LatestNews /> 
+       <GalleryComponent /> 
+      <Temples />
+      <NearbyPlaces />
+      <Footer /></>  }
     </div>
   );
 }
