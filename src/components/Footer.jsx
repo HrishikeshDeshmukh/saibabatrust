@@ -88,6 +88,8 @@ const Footer = () => {
                 <div className='term'>Terms & Conditions |
                     Terms & Disclaimer  |
                     Contact Us</div>
+
+                    <div className='term'>Design and Developed by Royals Webtech.</div>
             </div>
         </footer>
     )
