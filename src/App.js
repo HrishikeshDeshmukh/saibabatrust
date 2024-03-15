@@ -11,6 +11,7 @@ import Temples from './components/Temples';
 import NearbyPlaces from './components/NearbyPlaces';
 import Preloader from './components/Preloader';
 import Footer from './components/Footer';
+
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -21,17 +22,21 @@ function App() {
     // Simulate loading time
     setTimeout(() => {
       setLoading(false);
-    }, 4000); // Adjust the time as needed
-  }, []);
+    }, 4500); // Adjust the time as needed
+  }, [
+    
+  ]);
 
   return (
     <div className="App">
 
       {loading ? <Preloader /> : 
       
+
+
       
 
-    <><Navbar />
+  <><Navbar />
       <SocialPage />
       <Carousel />
       <AboutSection />
@@ -40,7 +45,7 @@ function App() {
        <GalleryComponent /> 
       <Temples />
       <NearbyPlaces />
-      <Footer /></>  }
+      <Footer /></>   } 
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Flower from '../assets/images/flower.png'
+
 // import images from "../Data/slideimg.json"
 import Img1 from "../assets/images/1.png";
 import Img2 from "../assets/images/2.png";
@@ -48,14 +49,14 @@ const images = [
 
 const Carousel = () => {
 
-    const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
+    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
     return (
      <>
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
             {images.map((image)=> (
-                <div className="embla__slide" key={image.id}><img src={image.img} alt="" /></div>
+                <div className={`embla__slide ${image.id === images.length - 1 ? 'last-slide' : 'second-slide'}`} key={image.id}><img src={image.img} alt="" /></div>
             ))}
           
          
