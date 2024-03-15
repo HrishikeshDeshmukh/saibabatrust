@@ -27,11 +27,11 @@
 
 @keyframes roll {
   0% {
-    transform: width;
+    transform: rotate3d(-330deg);
     opacity: 0;
   }
   100% {
-    transform: rotate(-360deg);
+    transform: rotate3d(-360deg);
     opacity: 1;
   }
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .carousel {
-  height: 150vh !important;
+  height: 150% !important;
   /* width: 98.2vw; */
   width: 100%;
   
@@ -302,14 +302,14 @@ body {
 }
 
 .services p {
-  padding: 50px;
-  font-size: 25px;
+  padding: 30px;
+  font-size: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .ser-icons {
   display: flex;
-  margin: 15px;
   justify-content: center;
 }
 
@@ -322,7 +322,7 @@ body {
 }
 
 .pooja-icon img {
-  width: 100px;
+  width: 80px;
 }
 
 .pooja-icon h3 {
@@ -573,6 +573,7 @@ body {
   font-size: 1.2em;
   justify-content: space-between;
   cursor: pointer;
+  
 }
 
 .sidebar-title .toggle {

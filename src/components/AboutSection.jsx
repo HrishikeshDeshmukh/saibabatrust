@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { RiLiveLine } from "react-icons/ri";
 import Pillar from "../assets/images/pillar.png";
 import Logo from "../assets/download.png";
@@ -6,7 +6,15 @@ import Pillar2 from "../assets/images/pillar2.png";
 import BG from "../assets/images/bg.png";
 import Sai from "../assets/images/sai-front.png";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const AboutSection = () => {
+    
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   // Chetan
   return (
     <section className="about">
@@ -43,12 +51,12 @@ const AboutSection = () => {
       </div>
 
       <div className="contain">
-        <div className="image-div">
+        <div className="image-div" data-aos="fade-right" data-aos-duration="1500">
           <img src={BG} alt="" width={500} className="bg" />
           <img src={Sai} alt="" className="sai" />
         </div>
 
-        <div className="info-div">
+        <div className="info-div" data-aos="fade-left" data-aos-duration="1500">
           <p>
             Shri Saibaba Sansthan Trust, Shirdi, is the Governing and
             Administrative body of Shri Saibaba's Samadhi Temple and all others
@@ -60,7 +68,7 @@ const AboutSection = () => {
           <button className="btn">Read More</button>
         </div>
       </div>
-      <div className="live">
+      <div className="live" data-aos="fade-up" data-aos-duration="1000">
         <h1>Live Darshan</h1>
         <button>
           Live

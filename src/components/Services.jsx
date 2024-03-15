@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/download.png";
 import Pooja from "../assets/images/pooja.png";
 import Darshan from "../assets/images/darshan.png";
 import Aarti from "../assets/images/aarti.png";
@@ -15,9 +14,6 @@ const Services = () => {
             <span className="about-head-span">Online Services</span>
           </h3>
         </div>
-        {/* <div className="img-container">
-          <img classname="img" src={Logo} alt="" width={100} />
-        </div> */}
       </div>
 
       <div className="services">
