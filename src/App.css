@@ -27,10 +27,12 @@
 
 @keyframes roll {
   0% {
-    transform: rotate(-250deg);
+    transform: width;
+    opacity: 0;
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
+    opacity: 1;
   }
 }
 
@@ -546,11 +548,11 @@ body {
   object-fit: fill;
   padding: 60px 10px;
   z-index: 2;
-  animation: roll 1.4s linear;
+  animation: roll .4s  ease-in-out ;
 }
 
 .navbar.open .navbar {
-  transition: linear ease-out 0.3s;
+  transition: linear ease-out 0.3s ;
 }
 
 .sidebar-item {
