@@ -11,11 +11,9 @@ import Temples from './components/Temples';
 import NearbyPlaces from './components/NearbyPlaces';
 import Preloader from './components/Preloader';
 import Footer from './components/Footer';
-
 import { useState, useEffect } from 'react';
 
 function App() {
-   
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -32,11 +30,9 @@ function App() {
 
       {loading ? <Preloader /> : 
       
-
-
       
 
-  <><Navbar />
+    <><Navbar />
       <SocialPage />
       <Carousel />
       <AboutSection />
@@ -45,7 +41,7 @@ function App() {
        <GalleryComponent /> 
       <Temples />
       <NearbyPlaces />
-      <Footer /></>   } 
+      <Footer /></>  }
     </div>
   );
 }
