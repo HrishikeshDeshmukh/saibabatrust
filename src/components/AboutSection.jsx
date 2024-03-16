@@ -68,11 +68,11 @@ const AboutSection = () => {
           <button className="btn">Read More</button>
         </div>
       </div>
-      <div className="live" data-aos="fade-up" data-aos-duration="1000">
+      <div className="live" data-aos="fade-up" data-aos-duration="1500">
         <h1>Live Darshan</h1>
-        <button>
+        <button className="live-btn">
           Live
-          <RiLiveLine className="icon" />
+          <RiLiveLine className="liveicon" />
         </button>
       </div>
     </section>

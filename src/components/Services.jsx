@@ -4,6 +4,9 @@ import Darshan from "../assets/images/darshan.png";
 import Aarti from "../assets/images/aarti.png";
 import Accommodity from "../assets/images/Accommodation.png";
 import Publications from "../assets/images/publications.png";
+import Donate from '../assets/images/donate1.png'
+
+import '../styles.css'
 
 const Services = () => {
   return (
@@ -22,31 +25,133 @@ const Services = () => {
           generation portal for availing Darshan, Aarti, Donation,
           Accommodation, Pooja, Membership and Publications services. Please
           click on the below links to avail the services.
+          <hr className="bl"/>
         </p>
         <div className="ser-icons">
-          <div className="pooja-icon">
-            <img src={Darshan} alt="" />
-            <h3>Darshan</h3>
+          <div className="first">
+            <div class="e-card playing" data-aos="fade-right"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop">
+
+                <img src={Darshan} alt="" className='image' />
+
+                <br />
+                Darshan
+                <br />
+
+              </div>
+            </div>
+
+            <div class="e-card playing" data-aos="zoom-in"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop" >
+
+                <img src={Aarti} alt="" className='image' />
+
+                <br />
+                Aarti
+                <br />
+
+              </div>
+            </div>
+
+
+
+            <div class="e-card playing" data-aos="fade-left"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop">
+
+                <img src={Pooja} alt="" className='image' />
+
+                <br />
+                Pooja
+                <br />
+
+              </div>
+            </div>
           </div>
 
-          <div className="pooja-icon">
-            <img src={Aarti} alt="" />
-            <h3>Aarti</h3>
+          <div className="second">
+            <div class="e-card playing" data-aos="fade-up-right"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop">
+
+                <img src={Publications} alt="" className='image' />
+
+                <br />
+                Publications
+                <br />
+
+              </div>
+            </div>
+
+
+            <div class="e-card playing" data-aos="fade-up-left"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop">
+
+                <img src={Accommodity} alt="" className='image' />
+
+                <br />
+                Accommodation
+                <br />
+
+              </div>
+            </div>
           </div>
 
-          <div className="pooja-icon">
-            <img src={Pooja} alt="" />
-            <h3>Pooja</h3>
-          </div>
-          <div className="pooja-icon">
-            <img src={Publications} alt="" />
-            <h3>Publications</h3>
-          </div>
 
-          <div className="pooja-icon">
-            <img src={Accommodity} alt="" />
-            <h3>Accommodation</h3>
-          </div>
+        </div>
+
+        <div className="three">
+        <div class="e-card playing" data-aos="fade-up"  data-aos-duration="1500">
+              <div class="image"></div>
+
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+
+
+              <div class="infotop">
+
+                <img src={Donate} alt="" className='image' />
+
+                <br />
+                Donate
+                <br />
+
+              </div>
+            </div>
         </div>
 
         <button className="btn btn2">Donation</button>

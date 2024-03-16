@@ -69,11 +69,11 @@ const Carousel = () => {
 
       <div className='containers'>
         <div className="wrapper">
-            <div className='text'>
+            <div className='text' data-aos="fade-right"  data-aos-duration="1500">
                 <p>Devotees are hereby informed that make donations in the Donation Office of Shree Saibaba Sansthan in Temple premises at Shirdi and obtain an official receipt. Donations can also be done through the official website https://online.sai.org.in, and obtain an online receipt. These donations will reach Shree Saibaba Sansthan Trust, Shirdi.</p>
             </div>
 
-            <div className='text'>
+            <div className='text' data-aos="fade-up-right"  data-aos-duration="1500">
                 <p>Application for Sai Seva at Shri Saibaba Temple, Shirdi  Click here to apply</p>
             </div>
         </div>
@@ -83,11 +83,11 @@ const Carousel = () => {
         </div>
 
         <div className="wrapper">
-            <div className='text'>
+            <div className='text' data-aos="fade-left"  data-aos-duration="1500">
                 <p>Devotees are hereby informed that make donations in the Donation Office of Shree Saibaba Sansthan in Temple premises at Shirdi and obtain an official receipt. Donations can also be done through the official website https://online.sai.org.in, and obtain an online receipt. These donations will reach Shree Saibaba Sansthan Trust, Shirdi.</p>
             </div>
 
-            <div className='text'>
+            <div className='text' data-aos="fade-up-left"  data-aos-duration="1500">
                 <p>Application for Sai Seva at Shri Saibaba Temple, Shirdi  Click here to apply</p>
             </div>
         </div>
