@@ -63,3 +63,7 @@
 .footer-adroid-parent li:hover {
   transform: scale(1.1);
 }
+
+.carousel-text{
+  overflow: hidden;
+}

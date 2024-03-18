@@ -64,13 +64,13 @@ const Carousel = () => {
         </div>
       </div>
 
-      <div className="gold-plate">
+      <div className="gold-plate carousel-gold-plate">
         <img src={GoldPlate} alt="" width={500} className='goldimg'/>
       </div>
 
       <div className='containers'>
         <div className="wrapper">
-            <div className='text' data-aos="fade-right"  data-aos-duration="1500">
+            <div className=' text carousel-text' data-aos="fade-right"  data-aos-duration="1500">
                 <p>Devotees are hereby informed that make donations in the Donation Office of Shree Saibaba Sansthan in Temple premises at Shirdi and obtain an official receipt. Donations can also be done through the official website https://online.sai.org.in, and obtain an online receipt. These donations will reach Shree Saibaba Sansthan Trust, Shirdi.</p>
             </div>
 
