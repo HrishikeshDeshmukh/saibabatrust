@@ -1,5 +1,6 @@
 import './App.css';
 import './responsive.css'
+import './App1.css'
 import Carousel from './components/Carousel';
 import AboutSection from './components/AboutSection';
 import Services from './components/Services';
@@ -12,6 +13,7 @@ import NearbyPlaces from './components/NearbyPlaces';
 import Preloader from './components/Preloader';
 import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
+import Aos from 'aos';
 
 function App() {
   const [loading, setLoading] = useState(true);

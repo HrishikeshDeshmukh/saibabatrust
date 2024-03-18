@@ -12,6 +12,7 @@ import Img5 from "../assets/images/5.png";
 import GoldPlate from '../assets/images/gold.png'
 
 
+
 const images = [
     {
         id:'1',
