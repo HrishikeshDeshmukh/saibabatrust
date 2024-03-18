@@ -138,11 +138,12 @@ body {
 
 .gold-plate {
   margin: 0;
+  text-align: center;
 }
 
 .goldimg {
   margin: 10px;
-  transform: translate(100%, 10%);
+  /* transform: translate(100%, 10%); */
 }
 
 .about {
@@ -355,12 +356,13 @@ body {
 
 .text {
   width: 90%;
-  height: 150px;
+  /* height: 150px; */
   background-color: rgb(247, 232, 206);
-  padding: 20px;
+  padding: 19px;
   border-radius: 20px;
   box-shadow: 4px 2px 2px 2px rgb(134, 128, 128);
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .wrap-icon {
@@ -898,7 +900,7 @@ footer {
 
 .footer {
   width: 100vw;
-  height: 40vh;
+  /* height: 40vh; */
   display: flex;
   color: #fff;
   justify-content: space-evenly;
@@ -943,7 +945,7 @@ footer {
 }
 
 .ico ul li {
-  padding: 7px;
+  /* padding: 7px; */
   font-size: 25px;
   cursor: pointer;
 }

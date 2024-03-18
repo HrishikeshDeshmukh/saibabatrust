@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/download.png";
 import Pooja from "../assets/images/pooja.png";
 import Darshan from "../assets/images/darshan.png";
 import Aarti from "../assets/images/aarti.png";
