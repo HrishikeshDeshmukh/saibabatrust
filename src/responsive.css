@@ -104,13 +104,17 @@
     }
 
     .bg {
-        padding-left: 25px;
-        width: 350px !important;
+        
+        width: 300px !important;
+        transform: translate(10%, 0%) !important;
 
     }
 
     .image-div img {
         width: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .sai {
@@ -182,7 +186,9 @@
     }
 
     .slide {
-       margin-left: 48px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
     }
 
     .footer {
@@ -243,14 +249,14 @@
         margin-top: 30px;
     }
 
-    .update-card {
+    /* .update-card {
         width: 330px !important;
     }
 
     .update-daily-prog{
       width: 330px !important;
       align-items: center !important;
-    }
+    } */
 
 
 

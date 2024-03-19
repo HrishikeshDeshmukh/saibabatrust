@@ -197,7 +197,7 @@ body {
 .info-div p {
   font-size: 20px;
   padding: 20px;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .image-div {
@@ -830,6 +830,7 @@ body {
   justify-content: center !important;
   margin-top: 50px;
   width: 100%;
+  
 }
 
 .slide {

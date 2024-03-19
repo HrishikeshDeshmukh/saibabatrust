@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { FaFacebook,FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
+
 import Donate from '../assets/images/donate.png'
 
 
 const SocialPage = () => {
+
+  const [isMenuVisible, setMenuVisible] = useState(false);
+
+  const handleClick = () => {
+    setMenuVisible(!isMenuVisible);
+  };
+
+  
   return (
     <section>
 

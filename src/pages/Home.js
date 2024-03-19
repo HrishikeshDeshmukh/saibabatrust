@@ -11,6 +11,7 @@ import DailyUpdate from "../components/Update";
 import Footer from "../components/Footer";
 import Preloader from "../components/Preloader";
 import Navbar from "../components/Navbar";
+import Social from "../components/social-icon/Social";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -28,7 +29,7 @@ const Home = () => {
       ) : (
         <>
           <Navbar />
-          <SocialPage />
+          <Social />
           <Carousel />
           <AboutSection />
           <Services />

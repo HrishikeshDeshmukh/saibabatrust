@@ -45,7 +45,7 @@ const Temples = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="slide card">
+          <div className="slide">
             <img src={Gurusthan} alt="" />
             <h2>Gurusthan</h2>
             <p>Gurusthan means “place of the Guru”. It is both where Baba spent most of his time when he first came to Shirdi, according to Baba, the tomb of his own Guru is located by the neem tree. </p>

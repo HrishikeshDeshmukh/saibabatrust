@@ -1,0 +1,92 @@
+.menu {
+    position: fixed;
+    transform: translate(0%, 40%);
+    z-index: 1111;
+    height: 100%;
+  }
+  
+  .menu span {
+    position: absolute;
+    background-color: rgb(197 123 31) !important;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    padding: auto;
+    padding: 10px 8px;
+  }
+  
+  .menu span.hidden {
+    visibility: hidden !important;
+  }
+  
+  .menu span:last-child {
+    padding: 10px 8px;
+  }
+  
+  .menu span:nth-child(1) {
+    background-color: rgb(255, 255, 255) !important;
+    padding: 10px 8px;
+  }
+  
+  .menu span:nth-child(1).show {
+    transform: rotate(-70deg) translate(100px) rotate(70deg);
+  }
+  
+  .menu span:nth-child(2) {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .menu span:nth-child(2).show {
+    transform: rotate(-25deg) translate(100px) rotate(25deg);
+  }
+  
+  .menu span:nth-child(3) {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .menu span:nth-child(3).show {
+    transform: rotate(25deg) translate(100px) rotate(-25deg);
+  }
+
+  .menu span:nth-child(4) {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .menu span:nth-child(4).show {
+    transform: rotate(70deg) translate(100px) rotate(-70deg);
+  }
+
+  #soc {
+   width: 30px;
+   height: 30px;
+   color: white;
+  }
+
+  #facebook {
+    width: 30px;
+   height: 30px;
+   color: blue;
+  }
+
+  .menu span:hover  {
+    scale: 1.07;
+    transition: all ease-in-out .2s;
+   }
+
+
+   .trans span:nth-child(1){
+    background-color: rgb(197 123 31)!important;
+   }
+   .trans {
+    transform: translate(0%, 10%) !important;
+    
+   }
+
+   .trans img {
+    width: 32px;
+   height: 32px; 
+   
+
+   }
