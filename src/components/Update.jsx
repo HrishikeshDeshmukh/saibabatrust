@@ -4,6 +4,7 @@ import { IoIosAlarm } from "react-icons/io";
 const DailyUpdate = () => {
   const [latestUpdate, setLatestUpdate] = useState();
   const [upcomingFest, setUpcomingFest] = useState();
+  const [dailyProgram, setdailyProgram] = useState();
   useEffect(() => {
     setLatestUpdate([
       {
@@ -33,10 +34,64 @@ const DailyUpdate = () => {
         data: "SHRI RAM NAVAMI FESTIVAL 2024",
       },
     ]);
+
+    setdailyProgram([
+      {
+        time: "4.45 AM",
+        programname: "Temple Open",
+      },
+      {
+        time: "5.00 AM",
+        programname: "Bhupali",
+      },
+      {
+        time: "5.15 AM",
+        programname: "Kakad Aarti (Morning)",
+      },
+      {
+        time: "5.50 AM",
+        programname: "Mangal Snaan In Samadhi Mandir",
+      },
+      {
+        time: "4.45 AM",
+        programname: "Temple Open",
+      },
+      {
+        time: "6.20 AM",
+        programname: `Aarti "Shirdi Majhe Pandharpur"`,
+      },
+      {
+        time: "6.25 AM",
+        programname: "Darshan Begins In Samadhi Mandir",
+      },
+      {
+        time: "11.30 AM",
+        programname: "Dhuni Pooja With Rice and Ghee In Dwarkamai",
+      },
+      {
+        time: "12.00 PM",
+        programname: "Mid-day Aarti",
+      },
+      {
+        time: "4.00 PM",
+        programname: "Pothi (Devotional Reading / Study) In Samadhi Mandir",
+      },
+      {
+        time: "At sunset",
+        programname: "Dhoop Aarti",
+      },
+      {
+        time: "8.30 - 10.00pm PM",
+        programname: "Devotional Songs in Samadhi Mandir & Cultural Programms",
+      },
+      {
+        time: "10.00 PM",
+        programname: "Shej Aarti",
+      },
+    ]);
   }, []);
   return (
     <div>
-      <style>{""}</style>
       <div className="update-main-div">
         {/* First main cart */}
         <div
@@ -52,7 +107,29 @@ const DailyUpdate = () => {
           </h3>
 
           <div class="update-card">
-            <div class="update-bg">asdf</div>
+            {/* This is inner div */}
+            <div class="update-bg">
+              <div class="update-scrolling-container">
+                <div class="update-content-daily">
+                  {/* map */}
+
+                  {dailyProgram &&
+                    dailyProgram.map((data, index) => (
+                      <>
+                        <div className="update-main-innerdiv">
+                          <div className="update-daily-timediv">
+                            <h5>{data.time}</h5>
+                          </div>
+                          <div>
+                            <p>{data.programname}</p>
+                          </div>
+                        </div>
+                        <hr />
+                      </>
+                    ))}
+                </div>
+              </div>
+            </div>
             <div class="update-blob"></div>
           </div>
         </div>

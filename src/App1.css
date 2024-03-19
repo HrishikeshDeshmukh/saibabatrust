@@ -92,10 +92,9 @@
   box-shadow: 5px 5px 10px rgb(110, 87, 87), -5px -5px 10px rgb(110, 87, 87);
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
-  
 }
 
 .update-innerdivs:hover {
@@ -116,8 +115,7 @@
   background-color: orangered;
 }
  */
-.update-daily-prog{
- 
+.update-daily-prog {
 }
 
 .update-card {
@@ -132,7 +130,6 @@
   align-items: center;
   justify-content: center;
   box-shadow: 2px 2px 8px #bebebe, -2px -2px 8px #ffffff;
- 
 }
 
 .update-bg {
@@ -185,9 +182,7 @@
   }
 }
 
-
 .update-scrolling-container {
-  
   height: 240px;
   width: 340px;
   overflow: hidden;
@@ -196,7 +191,12 @@
 
 .update-content {
   animation: scroll 10s linear infinite; /* Adjust duration as needed */
-  height: 240px;
+  /* height: 240px; */
+}
+
+.update-content-daily {
+  animation: scroll 20s linear infinite; /* Adjust duration as needed */
+  /* height: 240px; */
 }
 
 @keyframes scroll {
@@ -216,12 +216,51 @@
   margin: 10px;
 }
 
-.update-content a{
+.update-content a {
   text-decoration: none;
   color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.update-upcoming-fest{
+.update-upcoming-fest {
   font-weight: 500;
+}
+
+.update-main-innerdiv {
+  /* display: flex; */
+
+  /* width: 100%; */
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 3fr;
+
+}
+
+.update-daily-timediv {
+  width: 70px;
+  border-right: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
 }
