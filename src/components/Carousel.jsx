@@ -72,7 +72,7 @@ const Carousel = () => {
               Devotees are hereby informed that make donations in the Donation
               Office of Shree Saibaba Sansthan in Temple premises at Shirdi and
               obtain an official receipt. Donations can also be done through the
-              official website https://online.sai.org.in, and obtain an online
+              official website <span className="blink">https://online.sai.org.in</span>, and obtain an online
               receipt. These donations will reach Shree Saibaba Sansthan Trust,
               Shirdi.
             </p>
@@ -84,8 +84,8 @@ const Carousel = () => {
             data-aos-duration="1500"
           >
             <p>
-              Application for Sai Seva at Shri Saibaba Temple, Shirdi Click here
-              to apply
+              Application for Sai Seva at Shri Saibaba Temple, Shirdi <span className="blink">Click here
+              to apply</span>
             </p>
           </div>
         </div>
@@ -97,12 +97,8 @@ const Carousel = () => {
         <div className="wrapper">
           <div className="text" data-aos="fade-left" data-aos-duration="1500">
             <p>
-              Devotees are hereby informed that make donations in the Donation
-              Office of Shree Saibaba Sansthan in Temple premises at Shirdi and
-              obtain an official receipt. Donations can also be done through the
-              official website https://online.sai.org.in, and obtain an online
-              receipt. These donations will reach Shree Saibaba Sansthan Trust,
-              Shirdi.
+            Collection of any Money, Valuables, Shawls, Clothes or other materials by any other website, YouTube or other channels, temple, organization or any other entity for any Pooja, offering etc. is illegal and offence, as they are not authorized.
+
             </p>
           </div>
 
@@ -112,8 +108,7 @@ const Carousel = () => {
             data-aos-duration="1500"
           >
             <p>
-              Application for Sai Seva at Shri Saibaba Temple, Shirdi Click here
-              to apply
+            Devotees be beware that (Except Tatasky) Other Channels’ alleged Live Darshan is illegal and false and they and their sponsors are liable for legal action. For Real Time Official Live Darshan of Shree Sai Baba Samadhi Mandir, Shirdi <span className="blink">Click here</span>.
             </p>
           </div>
         </div>
