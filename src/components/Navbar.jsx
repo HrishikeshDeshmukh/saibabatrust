@@ -33,7 +33,7 @@ const Navbar = () => {
 
             <div className="humburger" onClick={()=> {setOpen(!open)}}>
             
-            <div className="social-btn nav-btn">
+            <div className="social-btn nav-btn wid">
                 {open ?  <IoClose /> : <GiHamburgerMenu /> }
                 </div>
 
