@@ -14,6 +14,7 @@ import Preloader from './components/Preloader';
 import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
 import Aos from 'aos';
+import DailyUpdate from './components/Update';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ function App() {
           <GalleryComponent />
           <Temples />
           <NearbyPlaces />
+          <DailyUpdate />
           <Footer />
         </>
       )}
