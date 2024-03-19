@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px) {
+
+    .update-card{
+        width: 300px !important;
+    }
+
+    .update-bg{
+        width: 290px !important;
+    }
+
+    .update-scrolling-container{
+        width: 300px !important;
+    }
+}

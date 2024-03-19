@@ -76,7 +76,6 @@
   text-align: center;
   padding: 2rem;
   column-gap: 2rem;
-  
 }
 
 .update-main-div h3 {
@@ -213,6 +212,10 @@
   animation-play-state: paused;
 }
 
+.update-content-daily:hover {
+  animation-play-state: paused;
+}
+
 .update-content p {
   margin: 10px;
 }
@@ -234,7 +237,6 @@
   display: grid;
   position: relative;
   grid-template-columns: 1fr 3fr;
-
 }
 
 .update-daily-timediv {
@@ -242,26 +244,9 @@
   border-right: 1px solid black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* @media screen and (min-width:1024px) {
+  
+}
 @media only screen and (max-width: 767px) {
 
-}
+} */
