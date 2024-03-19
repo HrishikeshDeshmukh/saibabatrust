@@ -184,6 +184,9 @@ body {
   width: 40%;
   text-align: center;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info-div p {
@@ -830,6 +833,10 @@ body {
   text-align: center;
   justify-content: center;
   color: #fff;
+  overflow: hidden;
+  position: relative;
+  
+  
 }
 
 .slide img {
@@ -837,24 +844,82 @@ body {
   height: 370px;
   border-radius: 20px;
   position: relative;
+  overflow: hidden;
+  
 }
+
+
 
 .slide h2 {
   position: absolute;
   top: 45%;
 }
 
+.slide p {
+  position: absolute;
+  bottom: -30% ;
+  font-size: 12px;
+  width: 80%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.slide:hover img {
+  filter: blur(1px);
+  filter: brightness(55%)
+}
 .slide:hover h2 {
   scale: 1.2;
   transition: all ease-in-out 0.3s;
   transform: translateY(-150%);
+  
+}
+
+
+
+.slide:hover p {
+  scale: 1.2;
+  transition: all ease-in-out 0.3s;
+  transform: translateY(-150%);
+  
+
 }
 
 .slide:hover {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #000000 !important;
+    
 }
+
+
+
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.card:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
+
+
+
 
 #load {
   display: flex;

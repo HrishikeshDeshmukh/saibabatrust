@@ -14,7 +14,11 @@
         width: 70%;
         margin-left: 25px;
     }
-
+    
+    .wid:hover {
+        width: 50px !important;
+    }
+    
     .logo img {
         width: 50px;
     }
@@ -33,7 +37,7 @@
     }
 
     .goldimg {
-        transform: translate(5%, 95%);
+        margin-top: 60px;
         width: 300px;
     }
 
@@ -48,7 +52,7 @@
     }
 
     .text {
-        height: 200px;
+        height: auto;
         text-align: center;
         align-items: center;
     }
@@ -58,7 +62,7 @@
     }
 
     .wrap-icon {
-        transform: translate(40%, -8%);
+       margin:  20px 0;
 
         width: 100%;
     }
@@ -82,23 +86,27 @@
 
     .contain {
         width: 100%;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     .info-div {
         width: 100%;
-        align-items: center; 
-        justify-content: center;
-        margin-top: 100px;
+        margin: 0;
        
     }
 
-    .info-div p {
-        padding-left: 0px;
+  
+    .image-div {
+        width: 100%;
+        padding-left: 0;
     }
 
-    .image-div {
-        padding-left: 50px;
+    .bg{
+        padding-left:25px;
+        width: 350px !important;
+    
     }
 
     .image-div img {
@@ -107,28 +115,33 @@
 
     .sai {
         top: 0%;
-        left: 25%;
+        left: 22%;
     }
 
-    .btn {
+     .btn {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 90px ;
+        margin: auto !important;
     }
 
     .live{
         width: 90vw;
     }
     .services{
-        width: 90%;
+        width: 100%;
     }
     .services p {
         font-size: 18px;
     }
 
     .ser-icons {
-        flex-wrap: wrap;
+        display: block;
+    }
+
+    .first {
+        flex-direction: column;
+        justify-content: center;
     }
 
     .table-wrap {

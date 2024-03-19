@@ -48,6 +48,7 @@ const Temples = () => {
           <div className="slide card">
             <img src={Gurusthan} alt="" />
             <h2>Gurusthan</h2>
+            <p>Gurusthan means “place of the Guru”. It is both where Baba spent most of his time when he first came to Shirdi, according to Baba, the tomb of his own Guru is located by the neem tree. </p>
           </div>
         </SwiperSlide>
 
@@ -55,6 +56,7 @@ const Temples = () => {
           <div className="slide">
             <img src={Samadhi} alt="" />
             <h2>Samadhi</h2>
+            <p>The shrine which houses Baba's tomb was originally constructed as a wada (large private house) during Baba's last years in his physical body.</p>
           </div>
         </SwiperSlide>
 
@@ -62,6 +64,7 @@ const Temples = () => {
           <div className="slide">
             <img src={Dwarkamai} alt="" />
             <h2>Dwarkamai</h2>
+            <p>To the devotees of Sai Baba, Dwarkamai is one of the treasures of Shirdi. The spirit of tolerance, acceptance and welcome for all is very much alive.</p>
           </div>
         </SwiperSlide>
 
@@ -69,6 +72,7 @@ const Temples = () => {
           <div className="slide">
             <img src={Chavadi} alt="" />
             <h2>Chavadi</h2>
+            <p>Inside Chavadi is a large portrait of Baba which was painted by Ambaram from Nausari in Gujarat after Baba had given him darshan in a dream in 1953. </p>
           </div>
         </SwiperSlide>
 
@@ -76,6 +80,7 @@ const Temples = () => {
           <div className="slide">
             <img src={Lendi} alt="" />
             <h2>Lendi Garden</h2>
+            <p> It was a daily ritual for Baba to visit the Lendi Bagh twice a day for his quiet meditations. Baba used to spend a lot of his time here watering the plants daily in the morning and Evenings.</p>
           </div>
         </SwiperSlide>
 
@@ -83,6 +88,7 @@ const Temples = () => {
           <div className="slide">
             <img src={Other} alt="" />
             <h2>Other Temples</h2>
+            <p>Ganesh,Shani (i.e. Saturn) and Mahadev (i.e. Shiva). Baba's local devotee, Tatya Kote Patil, was fond of offering lamps here. </p>
           </div>
         </SwiperSlide>
       </Swiper>
