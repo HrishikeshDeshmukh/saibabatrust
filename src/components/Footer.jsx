@@ -68,9 +68,9 @@ const Footer = () => {
                     <h2>Download App</h2>
 
                     <div className='ico'>
-                        <ul id='down'>
+                        <ul id='down' className='footer-adroid-parent'>
                             
-                            <li><IoLogoAndroid /></li>
+                            <li><IoLogoAndroid /></li> 
                             <li><FaApple /></li>
                         </ul>
                     </div>
