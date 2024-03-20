@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './Menu.css' // Import your CSS file
-import { FaFacebook,FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
+import React, { useState } from "react";
+import "./Menu.css"; // Import your CSS file
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { BiSolidMessageSquareAdd } from "react-icons/bi";
-import Donate from '../../assets/images/donationsai.png'
+import Donate from "../../assets/images/donationsai.png";
 
 const Social = () => {
   const [isMenuVisible, setMenuVisible] = useState(true);
@@ -12,21 +12,46 @@ const Social = () => {
   };
 
   return (
-
     <>
-    <div className="menu trans">
-    <span className="" ><img src={Donate} alt="" /></span>
-    </div>
-    <div className="menu">
-      <span className={`${isMenuVisible ? 'hidden' : 'show'}`}><FaFacebook id='facebook'/></span>
-      <span className={` ${isMenuVisible ? 'hidden' : 'show'}`}><FaInstagram id='insta'/></span>
-      <span className={`${isMenuVisible ? 'hidden' : 'show'}`}><FaTwitter id='twitter'/></span>
-      <span className={`${isMenuVisible ? 'hidden' : 'show'}`}><FaYoutube id='youtube'/></span>
-      <span className="" onClick={handleClick}><BiSolidMessageSquareAdd id='soc'/></span>
-    </div>
+      <div className="menu trans">
+        <a className="">
+          <img src={Donate} alt="" />
+        </a>
+      </div>
+      <div className="menu">
+        <a
+          href="https://www.facebook.com/shrisaibabasansthantrustshirdi"
+          className={`${isMenuVisible ? "hidden" : "show"}`}
+        >
+          <FaFacebook id="facebook" />
+        </a>
+        {/* <span className={` ${isMenuVisible ? "hidden" : "show"}`}> */}
+        <a
+          className={` ${isMenuVisible ? "hidden" : "show"}`}
+          href="https://www.instagram.com/shreesaibabasansthantrust?utm_medium=copy_link"
+          target="_blank"
+        >
+          <FaInstagram id="insta" />
+        </a>
+        {/* </span> */}
+        <a
+          className={`${isMenuVisible ? "hidden" : "show"}`}
+          href="https://twitter.com/ssstshirdi"
+        >
+          <FaTwitter id="twitter" />
+        </a>
+        <a
+          className={`${isMenuVisible ? "hidden" : "show"}`}
+          href="https://www.youtube.com/user/saibabasansthantrust/videos"
+        >
+          <FaYoutube id="youtube" />
+        </a>
+        <a className="" onClick={handleClick}>
+          <BiSolidMessageSquareAdd id="soc" />
+        </a>
+      </div>
     </>
   );
-}
+};
 
-
-export default Social
+export default Social;

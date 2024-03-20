@@ -5,7 +5,7 @@
     height: 100%;
   }
   
-  .menu span {
+  .menu a {
     position: absolute;
     background-color: rgb(197 123 31) !important;
     border: 3px solid white;
@@ -14,47 +14,47 @@
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     padding: auto;
-    padding: 10px 8px;
+    padding: 8px 8px;
   }
   
-  .menu span.hidden {
+  .menu a.hidden {
     visibility: hidden !important;
   }
   
-  .menu span:last-child {
+  .menu a:last-child {
     padding: 10px 8px;
   }
   
-  .menu span:nth-child(1) {
+  .menu a:nth-child(1) {
     background-color: rgb(255, 255, 255) !important;
     padding: 10px 8px;
   }
   
-  .menu span:nth-child(1).show {
+  .menu a:nth-child(1).show {
     transform: rotate(-70deg) translate(100px) rotate(70deg);
   }
   
-  .menu span:nth-child(2) {
+  .menu a:nth-child(2) {
     background-color: rgb(255, 255, 255) !important;
   }
   
-  .menu span:nth-child(2).show {
+  .menu a:nth-child(2).show {
     transform: rotate(-25deg) translate(100px) rotate(25deg);
   }
   
-  .menu span:nth-child(3) {
+  .menu a:nth-child(3) {
     background-color: rgb(255, 255, 255) !important;
   }
   
-  .menu span:nth-child(3).show {
+  .menu a:nth-child(3).show {
     transform: rotate(25deg) translate(100px) rotate(-25deg);
   }
 
-  .menu span:nth-child(4) {
+  .menu a:nth-child(4) {
     background-color: rgb(255, 255, 255) !important;
   }
   
-  .menu span:nth-child(4).show {
+  .menu a:nth-child(4).show {
     transform: rotate(70deg) translate(100px) rotate(-70deg);
   }
 
@@ -70,7 +70,7 @@
    color: blue;
   }
 
-  .menu span:hover  {
+  .menu a:hover  {
     scale: 1.07;
     transition: all ease-in-out .2s;
    }
