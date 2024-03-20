@@ -11,4 +11,9 @@
     .update-scrolling-container{
         width: 300px !important;
     }
+
+    .gallery{
+        margin-top: 5px !important;
+    
+    }
 }
