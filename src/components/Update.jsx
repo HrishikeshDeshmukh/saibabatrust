@@ -112,16 +112,16 @@ const DailyUpdate = () => {
             &nbsp; Daily Programme
           </h3>
 
-          <div class="update-card">
+          <div className="update-card">
             {/* This is inner div */}
-            <div class="update-bg">
-              <div class="update-scrolling-container">
-                <div class="update-content-daily">
+            <div className="update-bg">
+              <div className="update-scrolling-container">
+                <div className="update-content-daily">
                   {/* map */}
 
                   {dailyProgram &&
                     dailyProgram.map((data, index) => (
-                      <>
+                      <div key={index}>
                         <div className="update-main-innerdiv">
                           <div className="update-daily-timediv">
                             <h5>{data.time}</h5>
@@ -131,12 +131,12 @@ const DailyUpdate = () => {
                           </div>
                         </div>
                         <hr />
-                      </>
+                      </div>
                     ))}
                 </div>
               </div>
             </div>
-            <div class="update-blob"></div>
+            <div className="update-blob"></div>
           </div>
         </div>
 
@@ -153,10 +153,10 @@ const DailyUpdate = () => {
             </span>
             &nbsp; Upcoming Festivals
           </h3>
-          <div class="update-card">
-            <div class="update-bg">
-              <div class="update-scrolling-container">
-                <div class="update-content">
+          <div className="update-card">
+            <div className="update-bg">
+              <div className="update-scrolling-container">
+                <div className="update-content">
                   {upcomingFest &&
                     upcomingFest.map((item, index) => (
                       <div key={index}>
@@ -168,7 +168,7 @@ const DailyUpdate = () => {
                 </div>
               </div>
             </div>
-            <div class="update-blob"></div>
+            <div className="update-blob"></div>
           </div>
         </div>
 
@@ -184,10 +184,10 @@ const DailyUpdate = () => {
             </span>{" "}
             &nbsp; Latest Updates
           </h3>
-          <div class="update-card">
-            <div class="update-bg">
-              <div class="update-scrolling-container">
-                <div class="update-content">
+          <div className="update-card">
+            <div className="update-bg">
+              <div className="update-scrolling-container">
+                <div className="update-content">
                   {latestUpdate &&
                     latestUpdate.map((item, index) => (
                       <div key={index}>
@@ -200,7 +200,7 @@ const DailyUpdate = () => {
                 </div>
               </div>
             </div>
-            <div class="update-blob"></div>
+            <div className="update-blob"></div>
           </div>
         </div>
       </div>

@@ -66,26 +66,42 @@ const Footer = () => {
                         </ul>
                     </div> */}
           <div>
-            <ul class="social-icons">
+            <ul className="social-icons">
               <li>
-                <a href="#" id="footer-insta-ico-a">
-                  <i class="fa fa-instagram"></i>
+                <a
+                  href="https://www.instagram.com/shreesaibabasansthantrust?utm_medium=copy_link"
+                  id="footer-insta-ico-a"
+                  target="_blank"
+                >
+                  <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#" id="footer-twit-ico-a">
-                  <i class="fa fa-twitter"></i>
+                <a
+                  href="https://twitter.com/ssstshirdi"
+                  id="footer-twit-ico-a"
+                  target="_blank"
+                >
+                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
 
               <li>
-                <a href="#" id="footer-youtube-ico-a">
-                  <i class="fa fa-youtube"></i>
+                <a
+                  href="https://www.youtube.com/user/saibabasansthantrust/videos"
+                  target="_blank"
+                  id="footer-youtube-ico-a"
+                >
+                  <i className="fa fa-youtube"></i>
                 </a>
               </li>
               <li>
-                <a href="#" id="footer-face-ico-a">
-                  <i class="fa fa-facebook"></i>
+                <a
+                  href="https://www.facebook.com/shrisaibabasansthantrustshirdi"
+                  id="footer-face-ico-a"
+                  target="_blank"
+                >
+                  <i className="fa fa-facebook"></i>
                 </a>
               </li>
             </ul>

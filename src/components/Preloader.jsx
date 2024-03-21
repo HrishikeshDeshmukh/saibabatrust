@@ -12,7 +12,7 @@ const Preloader = () => {
             <div  id="text">
             <h1>Shri Saibaba Sansthan Trust, Shirdi</h1>
             </div>
-            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
             <div  id="text">
             <h4>Loading...</h4>
             </div>

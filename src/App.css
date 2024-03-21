@@ -693,6 +693,7 @@ body {
   color: #cdb6a2;
   transition: all ease-in 0.2s;
   box-shadow: 2px 2px 2px 2px rgb(134, 128, 128);
+  cursor: pointer;
 }
 
 .btn-wrap {
