@@ -627,6 +627,7 @@ body {
   margin: auto;
   display: flex;
   transform: translate(0.2%, 20%);
+  justify-content: center;
 }
 
 .latest-news {
@@ -1111,7 +1112,7 @@ footer {
   align-items: center;
 }
 
-.footer-term{
+.footer-term {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
