@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 /* .gallery-main-div {
   width: 30%;
   height: 200px;
@@ -260,7 +262,114 @@
 
 } */
 
-.social-a-tag{
+
+
+
+
+
+
+
+
+
+.social-a-tag {
   text-decoration: none;
-  
 }
+
+.carousel-a-tag {
+  text-decoration: none !important;
+}
+
+:root {
+  --timing: 265ms;
+  --iconColor: #00b5f5;
+  --accent: red;
+  --bluefade: #0043e0;
+  --gradient: #00b5f5;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.social-icons i {
+  /* color: #fff; */
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  content: " ";
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  /* background: linear-gradient(45deg, var(--iconColor), var(--accent)); */
+  background-color: white;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+#footer-insta-ico-a i{
+  color: #da214f;
+}
+
+#footer-insta-ico-a:hover i{
+  transform: scale(2.2);
+  background: -webkit-linear-gradient(45deg,#da214f, #da214f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+#footer-twit-ico-a i{
+color: #192fda;
+}
+#footer-twit-ico-a:hover i{
+  transform: scale(2.2);
+  background: -webkit-linear-gradient(45deg,#192fda, #192fda);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+#footer-face-ico-a i{
+color: blue;
+}
+#footer-face-ico-a:hover i{
+  transform: scale(2.2);
+  background: -webkit-linear-gradient(45deg,blue, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+#footer-youtube-ico-a i{
+color: #da1919;
+}
+
+#footer-youtube-ico-a:hover i{
+  transform: scale(2.2);
+  background: -webkit-linear-gradient(45deg,#da1919, #da1919);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+

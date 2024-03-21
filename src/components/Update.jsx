@@ -5,7 +5,13 @@ const DailyUpdate = () => {
   const [latestUpdate, setLatestUpdate] = useState();
   const [upcomingFest, setUpcomingFest] = useState();
   const [dailyProgram, setdailyProgram] = useState();
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
+    setIsMobile(
+      typeof window !== "undefined" &&
+        window.matchMedia("(max-width: 1020px)").matches
+    );
     setLatestUpdate([
       {
         data: "“रंगपंचमी” या स्थानिक उत्सव कार्यक्रमाबाबत...",
@@ -97,7 +103,7 @@ const DailyUpdate = () => {
         <div
           className="update-daily-prog update-innerdivs"
           data-aos="fade-right"
-          data-aos-duration="2500"
+          data-aos-duration={isMobile ? 1500 : 2500}
         >
           <h3>
             <span className="update-alram-ico">
@@ -138,7 +144,7 @@ const DailyUpdate = () => {
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
-          data-aos-duration="2500"
+          data-aos-duration={isMobile ? 1500 : 2500}
           className="update-upcoming-fest update-innerdivs"
         >
           <h3>
@@ -169,7 +175,7 @@ const DailyUpdate = () => {
         {/* Third main cart */}
         <div
           data-aos="fade-left"
-          data-aos-duration="2500"
+          data-aos-duration={isMobile ? 1500 : 2500}
           className="update-latest-update update-innerdivs"
         >
           <h3>

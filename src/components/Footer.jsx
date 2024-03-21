@@ -1,61 +1,62 @@
-import React from 'react'
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaApple } from "react-icons/fa6";
+import React from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+  FaApple,
+} from "react-icons/fa6";
 import { IoLogoAndroid } from "react-icons/io";
 
 const Footer = () => {
-    return (
-        <footer>
-            <div className='footer'>
+  return (
+    <footer>
+      <div className="footer">
+        <div className="quick">
+          <div>
+            <h2>Quick Links</h2>
+          </div>
+          <div className="ele-wrap">
+            <div className="ele">
+              <ul>
+                <li>Work Tenure</li>
+                <li>RTI ACT Section-4</li>
+                <li>Sansthan Regulations</li>
+                <li>Screen Reader Access</li>
+                <li>Statistical Reports</li>
+              </ul>
+            </div>
 
-                <div className="quick">
-                    <div>
-                        <h2>Quick Links</h2>
-                    </div>
-                    <div className="ele-wrap">
-                        <div className='ele'>
-                            <ul>
-                                <li>Work Tenure</li>
-                                <li>RTI ACT Section-4</li>
-                                <li>Sansthan Regulations</li>
-                                <li>Screen Reader Access</li>
-                                <li>Statistical Reports</li>
-                            </ul>
-                        </div>
+            <div className="ele">
+              <ul>
+                <li>Appeal</li>
+                <li>Annual Reports</li>
+                <li>Resolutions</li>
+                <li>Notice</li>
+                <li>Information Centers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-                        <div className='ele'>
-                            <ul>
-                                <li>Appeal</li>
-                                <li>Annual Reports</li>
-                                <li>Resolutions</li>
-                                <li>Notice</li>
-                                <li>Information Centers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <div className="quick">
+          <h2>Reach Us On</h2>
 
+          <div className="con">
+            <h5>For Online Services please do contact on</h5>
+            <span>02423-258956, 02423-258963</span>
+          </div>
 
-                <div className="quick">
-                    <h2>Reach Us On</h2>
+          <div className="con">
+            <h5>Help Line No.</h5>
+            <span>+91 7588375204 / 7588371245 / 7588373189 / 7588374469</span>
+          </div>
+        </div>
 
-                    <div className='con'>
-                        <h5>For Online Services please do contact on</h5>
-                        <span>02423-258956, 02423-258963</span>
-                    </div>
+        <div className="quick">
+          <h2>Follow Us On</h2>
 
-                    <div className='con'>
-                        <h5>Help Line No.</h5>
-                        <span>+91 7588375204 / 7588371245 / 7588373189 / 7588374469</span>
-                    </div>
-
-
-                </div>
-
-
-                <div className="quick">
-                    <h2>Follow Us On</h2>
-
-                    <div className='ico'>
+          {/* <div className='ico'>
                         <ul>
                             <li><FaFacebook id="facebook"/></li>
                             <li><FaInstagram id="insta"/></li>
@@ -63,36 +64,66 @@ const Footer = () => {
                             <li><FaYoutube id="youtube"/></li>
                             
                         </ul>
-                    </div>
+                    </div> */}
+          <div>
+            <ul class="social-icons">
+              <li>
+                <a href="#" id="footer-insta-ico-a">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="footer-twit-ico-a">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
 
-                    <h2>Download App</h2>
+              <li>
+                <a href="#" id="footer-youtube-ico-a">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="footer-face-ico-a">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-                    <div className='ico'>
-                        <ul id='down' className='footer-adroid-parent'>
-                            
-                            <li><IoLogoAndroid /></li> 
-                            <li><FaApple /></li>
-                        </ul>
-                    </div>
+          <h2>Download App</h2>
 
+          <div className="ico">
+            <ul id="down" className="footer-adroid-parent">
+              <li>
+                <IoLogoAndroid />
+              </li>
+              <li>
+                <FaApple />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="footer-end">
+        <div className="footer-term">
+          <h4>© Copyright 1998-2024 Shri Saibaba Sansthan Trust, Shirdi</h4>
+        </div>
+        <div className="term footer-term">
+          Terms & Conditions | Terms & Disclaimer | Contact Us
+        </div>
 
-                </div>
+        <div className="term footer-term">
+          Design and Developed by{" "}
+          <strong>
+            &#169; <i> Royals WebTech</i>
+          </strong>
+          .
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-
-            </div>
-            <hr />
-            <div className="footer-end">
-                <div>
-                    <h4>© Copyright 1998-2024 Shri Saibaba Sansthan Trust, Shirdi</h4>
-                </div>
-                <div className='term'>Terms & Conditions |
-                    Terms & Disclaimer  |
-                    Contact Us</div>
-
-                    <div className='term'>Design and Developed by Royals Webtech.</div>
-            </div>
-        </footer>
-    )
-}
-
-export default Footer
+export default Footer;

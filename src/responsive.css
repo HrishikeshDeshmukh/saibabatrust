@@ -202,7 +202,8 @@
 
     .footer-end h4,
     .term {
-        font-size: 12px;
+        font-size: 10px;
+        text-align: center;
     }
 
     .social-btn {
