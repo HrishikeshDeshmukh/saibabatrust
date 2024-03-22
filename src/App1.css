@@ -291,13 +291,15 @@
   padding: 0;
   list-style: none;
   margin: 1em;
+  display: flex;
 }
 
 .social-icons li {
-  display: inline-block;
+  display: flex;
   margin: 0.15em;
   position: relative;
   font-size: 1.2em;
+  align-items: center;
 }
 
 .social-icons i {
