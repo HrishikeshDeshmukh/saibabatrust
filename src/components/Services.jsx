@@ -11,7 +11,7 @@ import "../styles.css";
 const Services = () => {
   return (
     <section>
-      <div className="title-wrapper">
+      <div className="title-wrapper about-title-wrapper">
         <div className="about-head">
           <h3>
             <span className="about-head-span">Online Services</span>

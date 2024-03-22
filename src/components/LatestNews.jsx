@@ -42,7 +42,7 @@ const LatestNews = () => {
             <div className="headin">
               <h3>Appeal</h3>
             </div>
-            <div className="contains">
+            <div className="contains ">
               <ul>
                 {appeals.map((appeal, index) => (
                   <li key={index}>
