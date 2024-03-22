@@ -72,9 +72,12 @@ const Carousel = () => {
               Devotees are hereby informed that make donations in the Donation
               Office of Shree Saibaba Sansthan in Temple premises at Shirdi and
               obtain an official receipt. Donations can also be done through the
-              official website <span className="blink">https://online.sai.org.in</span>, and obtain an online
-              receipt. These donations will reach Shree Saibaba Sansthan Trust,
-              Shirdi.
+              official website{" "}
+              <a href="#" className="carousel-a-tag">
+                <span className="blink">https://online.sai.org.in </span>
+              </a>
+              , and obtain an online receipt. These donations will reach Shree
+              Saibaba Sansthan Trust, Shirdi.
             </p>
           </div>
 
@@ -84,8 +87,11 @@ const Carousel = () => {
             data-aos-duration="1500"
           >
             <p>
-              Application for Sai Seva at Shri Saibaba Temple, Shirdi <span className="blink">Click here
-              to apply</span>
+              Application for Sai Seva at Shri Saibaba Temple, Shirdi{" "}
+              <a href="#" className="carousel-a-tag">
+                {" "}
+                <span className="blink">Click here to apply</span>
+              </a>
             </p>
           </div>
         </div>
@@ -97,8 +103,10 @@ const Carousel = () => {
         <div className="wrapper">
           <div className="text" data-aos="fade-left" data-aos-duration="1500">
             <p>
-            Collection of any Money, Valuables, Shawls, Clothes or other materials by any other website, YouTube or other channels, temple, organization or any other entity for any Pooja, offering etc. is illegal and offence, as they are not authorized.
-
+              Collection of any Money, Valuables, Shawls, Clothes or other
+              materials by any other website, YouTube or other channels, temple,
+              organization or any other entity for any Pooja, offering etc. is
+              illegal and offence, as they are not authorized.
             </p>
           </div>
 
@@ -108,7 +116,14 @@ const Carousel = () => {
             data-aos-duration="1500"
           >
             <p>
-            Devotees be beware that (Except Tatasky) Other Channels’ alleged Live Darshan is illegal and false and they and their sponsors are liable for legal action. For Real Time Official Live Darshan of Shree Sai Baba Samadhi Mandir, Shirdi <span className="blink">Click here</span>.
+              Devotees be beware that (Except Tatasky) Other Channels’ alleged
+              Live Darshan is illegal and false and they and their sponsors are
+              liable for legal action. For Real Time Official Live Darshan of
+              Shree Sai Baba Samadhi Mandir, Shirdi{" "}
+              <a href="#" className="carousel-a-tag">
+                <span className="blink">Click here</span>
+              </a>
+              .
             </p>
           </div>
         </div>

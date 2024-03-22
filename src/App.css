@@ -38,9 +38,11 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(216, 176, 138) 90%);
-  
-
+  background: radial-gradient(
+    827px at 47.3% 48%,
+    rgb(255, 255, 255) 0%,
+    rgb(216, 176, 138) 90%
+  );
 }
 
 .App {
@@ -51,7 +53,6 @@ body {
   height: 150% !important;
   /* width: 98.2vw; */
   width: 100%;
-  
 }
 
 .embla {
@@ -108,7 +109,6 @@ body {
   position: relative;
   width: 98vw;
   height: auto;
-  
 }
 
 .title-wrapper {
@@ -252,13 +252,14 @@ body {
 }
 
 .live {
-  width: 80vw;
-  height: 30vh;
+  width: 80%;
+  height: 40%;
   background: url("../src/assets/live_darshan.png");
   background-position: center;
   margin: 0px auto;
   border-radius: 20px;
   box-shadow: 10px 5px 5px 5px rgb(134, 128, 128);
+  padding-bottom: 10px;
 }
 
 .live h1 {
@@ -290,7 +291,7 @@ body {
   width: 100%;
   margin: 0px auto;
   border-radius: 20px;
-  
+
   /* box-shadow: 10px 5px 5px 5px rgb(134, 128, 128); */
   display: flex;
   flex-direction: column;
@@ -603,7 +604,7 @@ body {
 /* Latest News  */
 
 .table-wrap {
-  width: 90vw;
+  width: 90%;
   height: 100%;
   position: relative;
 }
@@ -627,6 +628,7 @@ body {
   margin: auto;
   display: flex;
   transform: translate(0.2%, 20%);
+  justify-content: center;
 }
 
 .latest-news {
@@ -693,6 +695,7 @@ body {
   color: #cdb6a2;
   transition: all ease-in 0.2s;
   box-shadow: 2px 2px 2px 2px rgb(134, 128, 128);
+  cursor: pointer;
 }
 
 .btn-wrap {
@@ -835,7 +838,6 @@ body {
   justify-content: center !important;
   margin-top: 50px;
   width: 100%;
-  
 }
 
 .slide {
@@ -850,8 +852,6 @@ body {
   color: #fff;
   overflow: hidden;
   position: relative;
-  
-  
 }
 
 .slide img {
@@ -860,10 +860,8 @@ body {
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  
+  /* filter: grayscale(100%); */
 }
-
-
 
 .slide h2 {
   position: absolute;
@@ -872,47 +870,37 @@ body {
 
 .slide p {
   position: absolute;
-  bottom: -30% ;
+  bottom: -30%;
   font-size: 12px;
-  width: 80%; 
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .slide:hover img {
-  filter: blur(1px);
-  filter: brightness(55%)
+  filter: blur(5px) !important;
+  filter: brightness(55%);
 }
 .slide:hover h2 {
   scale: 1.2;
   transition: all ease-in-out 0.3s;
   transform: translateY(-150%);
-  
 }
-
-
 
 .slide:hover p {
   scale: 1.2;
   transition: all ease-in-out 0.3s;
   transform: translateY(-150%);
-  
-
 }
 
 .slide:hover {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    background-color: #000000 !important;
-    
+  background-color: #000000 !important;
 }
-
-
-
 
 @keyframes anim {
   0% {
@@ -931,10 +919,6 @@ body {
 .card:hover {
   transform: scale(1.04) rotate(-1deg);
 }
-
-
-
-
 
 #load {
   display: flex;
@@ -1138,6 +1122,7 @@ footer {
 
 .con span {
   font-weight: 700;
+  text-align: center;
 }
 
 .ico {
@@ -1163,6 +1148,12 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.footer-term {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .ele ul li:hover {

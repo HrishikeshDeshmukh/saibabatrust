@@ -4,14 +4,14 @@ import Darshan from "../assets/images/darshan.png";
 import Aarti from "../assets/images/aarti.png";
 import Accommodity from "../assets/images/Accommodation.png";
 import Publications from "../assets/images/publications.png";
-import Donate from '../assets/images/donate1.png'
+import Donate from "../assets/images/donate1.png";
 
-import '../styles.css'
+import "../styles.css";
 
 const Services = () => {
   return (
     <section>
-      <div className="title-wrapper">
+      <div className="title-wrapper about-title-wrapper">
         <div className="about-head">
           <h3>
             <span className="about-head-span">Online Services</span>
@@ -25,133 +25,128 @@ const Services = () => {
           generation portal for availing Darshan, Aarti, Donation,
           Accommodation, Pooja, Membership and Publications services. Please
           click on the below links to avail the services.
-          <hr className="bl"/>
+          <hr className="bl" />
         </p>
         <div className="ser-icons">
           <div className="first">
-            <div class="e-card playing" data-aos="fade-right"  data-aos-duration="1500">
-              <div class="image"></div>
+            <div
+              className="e-card playing"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <div className="image"></div>
 
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-
-              <div class="infotop">
-
-                <img src={Darshan} alt="" className='image' />
-
+              <div className="infotop">
+                <img src={Darshan} alt="" className="image" />
                 <br />
                 Darshan
                 <br />
-
               </div>
             </div>
 
-            <div class="e-card playing" data-aos="zoom-in"  data-aos-duration="1500">
-              <div class="image"></div>
+            <div
+              className="e-card playing"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <div className="image"></div>
 
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-
-              <div class="infotop" >
-
-                <img src={Aarti} alt="" className='image' />
-
+              <div className="infotop">
+                <img src={Aarti} alt="" className="image" />
                 <br />
                 Aarti
                 <br />
-
               </div>
             </div>
 
+            <div
+              className="e-card playing"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div className="image"></div>
 
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-            <div class="e-card playing" data-aos="fade-left"  data-aos-duration="1500">
-              <div class="image"></div>
-
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
-
-
-              <div class="infotop">
-
-                <img src={Pooja} alt="" className='image' />
-
+              <div className="infotop">
+                <img src={Pooja} alt="" className="image" />
                 <br />
                 Pooja
                 <br />
-
               </div>
             </div>
           </div>
 
           <div className="second">
-            <div class="e-card playing" data-aos="fade-up-right"  data-aos-duration="1500">
-              <div class="image"></div>
+            <div
+              className="e-card playing"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
+              <div className="image"></div>
 
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-
-              <div class="infotop">
-
-                <img src={Publications} alt="" className='image' />
-
+              <div className="infotop">
+                <img src={Publications} alt="" className="image" />
                 <br />
                 Publications
                 <br />
-
               </div>
             </div>
 
+            <div
+              className="e-card playing"
+              data-aos="fade-up-left"
+              data-aos-duration="1500"
+            >
+              <div className="image"></div>
 
-            <div class="e-card playing" data-aos="fade-up-left"  data-aos-duration="1500">
-              <div class="image"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
 
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
-
-
-              <div class="infotop">
-
-                <img src={Accommodity} alt="" className='image' />
-
+              <div className="infotop">
+                <img src={Accommodity} alt="" className="image" />
                 <br />
                 Accommodation
                 <br />
-
               </div>
             </div>
           </div>
-
-
         </div>
 
         <div className="three">
-        <div class="e-card playing" data-aos="fade-up"  data-aos-duration="1500">
-              <div class="image"></div>
+          <div
+            className="e-card playing"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <div class="image"></div>
 
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
+            <div className="wave"></div>
+            <div className="wave"></div>
+            <div className="wave"></div>
 
-
-              <div class="infotop">
-
-                <img src={Donate} alt="" className='image' />
-
-                <br />
-                Donate
-                <br />
-
-              </div>
+            <div className="infotop">
+              <img src={Donate} alt="" className="image" />
+              <br />
+              Donate
+              <br />
             </div>
+          </div>
         </div>
 
         <button className="btn btn2">Donation</button>

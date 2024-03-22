@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { RiLiveLine } from "react-icons/ri";
 import Pillar from "../assets/images/pillar.png";
 import Logo from "../assets/download.png";
@@ -6,11 +6,10 @@ import Pillar2 from "../assets/images/pillar2.png";
 import BG from "../assets/images/bg.png";
 import Sai from "../assets/images/sai-front.png";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutSection = () => {
-    
   useEffect(() => {
     AOS.init();
   }, []);
@@ -42,16 +41,22 @@ const AboutSection = () => {
                 </div> */}
       </div>
 
-      <div className="pillar">
-        <img src={Pillar} alt="" />
-      </div>
+      <div>
+        <div className="pillar">
+          <img src={Pillar} alt="" className="pillar1-img" />
+        </div>
 
-      <div className="pillar2">
-        <img src={Pillar2} alt="" />
+        <div className="pillar2">
+          <img src={Pillar2} alt="" className="pillar1-img"/>
+        </div>
       </div>
 
       <div className="contain">
-        <div className="image-div" data-aos="fade-right" data-aos-duration="1500">
+        <div
+          className="image-div"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <img src={BG} alt="" width={500} className="bg" />
           <img src={Sai} alt="" className="sai" />
         </div>

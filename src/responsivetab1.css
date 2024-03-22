@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+  .pillar {
+    right: 15% !important;
+  }
+
+  .pillar1-img {
+    width: 300px;
+  }
+
+  .bg {
+    position: absolute;
+    /* top: 10%; */
+    width: 80%;
+    right: 15%;
+  }
+
+  .sai {
+    width: 50%;
+    top: 5%;
+  }
+
+  .info-div p {
+    padding: 0px;
+    font-size: 15px;
+  }
+
+  .services p {
+    padding-top: 1px;
+  }
+  .e-card {
+    width: 170px !important;
+    height: 250px !important;
+  }
+  .toran {
+    display: none;
+  }
+
+  .latest-news {
+    margin-top: -30px;
+  }
+  .wrap {
+    width: 100%;
+  }
+
+  .temple-swiper-parent {
+    padding-left: 60px;
+  }
+
+  .update-main-div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+ 
+
+  .update-innerdivs:nth-child(3) {
+    grid-column: span 2; 
+    justify-self: center; 
+  }
+}
