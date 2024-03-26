@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../assets/download.png";
 import Gallery from "../assets/images/gallery.jpg";
-
 import saibaba1 from "../assets/images/saibaba1.jpg";
 import saibaba2 from "../assets/images/saibaba2.jpeg";
 import saibaba3 from "../assets/images/saibaba3.jpg";

@@ -1,6 +1,6 @@
 .menu {
     position: fixed;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 70%);
     z-index: 1111;
     height: 100%;
   }
@@ -79,7 +79,12 @@
    .trans span:nth-child(1){
     background-color: rgb(197 123 31)!important;
    }
-
+   
+   .trans a:nth-child(2) {
+    background-color: transparent !important;
+    border: none !important;
+    
+  }
    .trans a:last-child {
     padding: 10px 8px;
   }
@@ -87,7 +92,7 @@
 
 
    .trans {
-    transform: translate(0%, 10%) !important;
+    transform: translate(0%, 40%) !important;
     
    }
 

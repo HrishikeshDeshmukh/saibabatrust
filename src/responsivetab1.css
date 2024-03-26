@@ -7,6 +7,10 @@
     width: 300px;
   }
 
+  .wrap-icon {
+    transform: translate(0%,150%) !important;
+  }
+
   .bg {
     position: absolute;
     /* top: 10%; */
