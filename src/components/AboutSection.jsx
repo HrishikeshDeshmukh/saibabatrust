@@ -5,6 +5,7 @@ import Logo from "../assets/download.png";
 import Pillar2 from "../assets/images/pillar2.png";
 import BG from "../assets/images/bg.png";
 import Sai from "../assets/images/sai-front.png";
+import Spin from '../assets/images/Circle.png'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -57,7 +58,8 @@ const AboutSection = () => {
           data-aos="fade-right"
           data-aos-duration="1500"
         >
-          <img src={BG} alt="" width={500} className="bg" />
+          <img src={Spin} alt="" width={550} className="bg" />
+          {/* <img src={Spin} alt="" className="sai circle"/> */}
           <img src={Sai} alt="" className="sai" />
         </div>
 

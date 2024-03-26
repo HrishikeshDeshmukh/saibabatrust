@@ -32,8 +32,8 @@
     }
 
     .embla__slide img {
-        width: 140%;
-        height: 120%;
+        width: 100%;
+        height: 100%;
     }
 
     .goldimg {
@@ -63,6 +63,7 @@
 
     .wrap-icon {
         margin: 20px 0;
+        transform: translate(0%, 0%);
 
         width: 100%;
     }
@@ -107,8 +108,10 @@
         
         width: 300px !important;
         transform: translate(10%, 0%) !important;
-
+       
     }
+
+    
 
     .image-div img {
         width: 250px;
@@ -130,7 +133,7 @@
     }
 
     .live {
-        width: 90vw;
+        width: 90%;
     }
 
     .services {
@@ -287,4 +290,24 @@
         height: 100%;
     }
 
+}
+
+@media only screen and (min-width: 1240px) and (max-width: 1334px) {
+    .sai {
+        left: 25% !important;
+    }
+
+    .pillar {
+        right: 11% !important;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1934px) {
+    .pillar {
+        right: 4% !important;
+    }
+
+    .sai {
+        left: 17% !important;
+    }
 }

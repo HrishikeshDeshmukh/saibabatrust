@@ -4,8 +4,8 @@ import Autoplay from "embla-carousel-autoplay";
 import Flower from "../assets/images/flower.png";
 
 // import images from "../Data/slideimg.json"
-import Img1 from "../assets/images/1.png";
-import Img2 from "../assets/images/2.png";
+import Img1 from "../assets/images/1.jpg";
+import Img2 from "../assets/images/2.jpg";
 import Img3 from "../assets/images/3.png";
 import Img4 from "../assets/images/4.png";
 import Img5 from "../assets/images/5.png";
@@ -19,22 +19,8 @@ const images = [
   {
     id: "2",
     img: Img2,
-  },
+  }
 
-  {
-    id: "3",
-    img: Img3,
-  },
-
-  {
-    id: "4",
-    img: Img4,
-  },
-
-  {
-    id: "5",
-    img: Img5,
-  },
 ];
 
 const Carousel = () => {
