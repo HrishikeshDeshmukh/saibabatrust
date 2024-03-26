@@ -148,8 +148,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        <button className="btn btn2">Donation</button>
       </div>
     </section>
   );

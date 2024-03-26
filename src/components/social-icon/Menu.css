@@ -79,6 +79,13 @@
    .trans span:nth-child(1){
     background-color: rgb(197 123 31)!important;
    }
+
+   .trans a:last-child {
+    padding: 10px 8px;
+  }
+
+
+
    .trans {
     transform: translate(0%, 10%) !important;
     
@@ -88,5 +95,25 @@
     width: 32px;
    height: 32px; 
    
+
+   }
+
+   .label {
+      display: flex;
+      text-decoration: none;
+      align-items: center;
+   }
+
+   .don {
+    background: transparent;
+    position: absolute;
+    position: absolute;
+    transform: translate(50px, 15px);
+    color: white !important;
+    z-index: 0;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
 
    }

@@ -6,17 +6,30 @@ import Donate from "../../assets/images/donationsai.png";
 
 const Social = () => {
   const [isMenuVisible, setMenuVisible] = useState(true);
+  const [isDonateVisible, setDonateVisible] = useState(true);
 
   const handleClick = () => {
     setMenuVisible(!isMenuVisible);
   };
 
+  const handleDonate = () => {
+    setDonateVisible(!isDonateVisible);
+  };
+
   return (
     <>
       <div className="menu trans">
-        <a className="">
+        <a className="" onClick={handleDonate}>
           <img src={Donate} alt="" />
         </a>
+        <a
+          href="https://online.sai.org.in//#/donation"
+          className={`${isDonateVisible ? "hidden" : "label"}`}
+          target="_blank"
+        >
+         <span className="don">Donate</span>
+        </a>
+
       </div>
       <div className="menu">
         <a

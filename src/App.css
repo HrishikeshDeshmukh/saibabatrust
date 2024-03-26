@@ -215,13 +215,11 @@ body {
 
 .bg {
   z-index: 0;
-  animation: rotatelogo 5s linear infinite;
+  animation: rotatelogo 5s linear infinite !important;
 }
 
 
-.circle {
-  left: 19% !important;
-}
+
 
 .sai {
   position: absolute;
