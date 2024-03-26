@@ -4,8 +4,8 @@ import Autoplay from "embla-carousel-autoplay";
 import Flower from "../assets/images/flower.png";
 
 // import images from "../Data/slideimg.json"
-import Img1 from "../assets/images/1.jpg";
-import Img2 from "../assets/images/2.jpg";
+import Img1 from "../assets/images/1.webp";
+import Img2 from "../assets/images/2.webp";
 import Img3 from "../assets/images/3.png";
 import Img4 from "../assets/images/4.png";
 import Img5 from "../assets/images/5.png";

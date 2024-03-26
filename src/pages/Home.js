@@ -20,7 +20,7 @@ const Home = () => {
     // Simulate loading time
     setTimeout(() => {
       setLoading(false);
-    }, 4500); // Adjust the time as needed
+    }, 5500); // Adjust the time as needed
   }, []);
   return (
     <div>
