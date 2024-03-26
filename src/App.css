@@ -110,6 +110,7 @@ body {
   background: url(./assets/Brown\ and\ Beige\ Minimalist\ Aesthetic\ Twitch\ Banner\ And\ Header\ .jpg);
   background-position: bottom;
   background-size: cover;
+  padding-bottom: 50px;
 }
 
 .title-wrapper {
@@ -259,12 +260,12 @@ body {
 
 .live {
   width: 80%;
-  height: 40%;
+  height: 35%;
   background: url("../src/assets/live_darshan.png");
   background-position: center;
   margin: 0px auto;
   border-radius: 20px;
-  box-shadow: 10px 5px 5px 5px rgb(134, 128, 128);
+  box-shadow: 10px 2px 2px 2px rgba(229, 229, 229, 0.752);
   padding-bottom: 10px;
 }
 
@@ -279,7 +280,6 @@ body {
   background-color: red;
   display: flex;
   align-items: center;
-
   margin: 10px auto;
   padding: 15px 23px;
   color: #fff;
